@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cola de Prioridad en Farmacia</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Farmacia Curatodo</h1>
+    </header>
+    
+    <img src="logof.jpg" alt="logo de farmacia" class="logo">
+
+    <div id="servingContainer">
+        <h2>Atendiendo a:</h2>
+        <div id="serving"></div>
+    </div>
+
+    <div class="contenedor">
+        <button id="serveButton">Atender siguiente persona</button>
+    </div>
+
+    <div id="queueContainer">
+        <h2>Clientes restantes:</h2>
+        <div id="queue"></div>
+    </div>
+
+    <script src="heap.js"></script>
+</body>
+</html>

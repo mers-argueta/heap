@@ -28,9 +28,25 @@
 
     <div id="queueContainer">
         <h2>Clientes restantes:</h2>
-        <div id="queue"></div>
+        <div id="cola"></div>
     </div>
 
+    <article>
+    <div id="form">
+        <h2>Agregar Persona</h2>
+        <label for="name">Nombre:</label>
+        <input type="text" id="name">
+        <br>
+        <label for="isSenior">Es adulto mayor:</label>
+        <input type="checkbox" id="isSenior">
+        <br>
+        <label for="isPregnant">Está embarazada:</label>
+        <input type="checkbox" id="isPregnant">
+        <br>
+        <br>
+        <button id="addButton">Agregar a la cola</button>
+    </div>
+    </article>
     <script src="heap.js"></script>
 </body>
 </html>
